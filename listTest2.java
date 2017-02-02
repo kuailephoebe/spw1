@@ -9,20 +9,13 @@ import java.util.Map;
 public class listTest2 {
     public static void main(String args[]) {
     List<String> list = new ArrayList<String>();
-    list.add("China");
-    list.add("Switzerland");
-    list.add("Italy");
-    list.add("France");
-    list.add("aa");
-    list.add("bb");
-    list.add("cc");
-    list.add("dd");
-    list.add("ee");
+        for (int i=1;i<100;i++){
+            list.add("aaa"+i);
+        }
     List<String> list1 = new ArrayList<String>();
-    list1.add("China1");
-    list1.add("Switzerland1");
-    list1.add("Italy1");
-    list1.add("aa1");
+        for (int i=1;i<30;i++){
+            list1.add("bbb"+i);
+        }
     String[] countries = list.toArray(new String[list.size()]);
         Map<Integer,String> listToMap = new HashMap<Integer, String>();
     System.out.println(countries);
@@ -41,5 +34,8 @@ public class listTest2 {
         }
         System.out.println(listToMap);
         System.out.println(listToMap.values());
+        for (Integer h=1;h<1000;h++){
+            System.out.print(h.hashCode()+",");
+        }
 }
 }
