@@ -5,3 +5,4 @@
      二、VO:value object值对象。通常用于业务层之间的数据传递，和PO一样也是仅仅包含数据而已。但应是抽象出的业务对象,可以和表对应,也可以不,这根据业务的需要.
 PO只能用在数据层，VO用在商业逻辑层和表示层。各层操作属于该层自己的数据对象，这样就可以降低各层之间的耦合，便于以后系统的维护和扩展。
 http://blog.csdn.net/shopharZFJ/article/details/42239953 ： pojo类和vo类分别是什么 
+http://blog.csdn.net/u014675477/article/details/28303821 java的(PO,VO,TO,BO,DAO,POJO)类名包名解释 
